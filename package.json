@@ -1,0 +1,30 @@
+{
+  "name": "be-skrip",
+  "version": "1.0.0",
+  "description": "app be untuk skripsi hehe",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc -w",
+    "dev": "npx nodemon",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abiliokrismanuel/be-skrip.git"
+  },
+  "author": "Abilio Krismanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abiliokrismanuel/be-skrip/issues"
+  },
+  "homepage": "https://github.com/abiliokrismanuel/be-skrip#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.16",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
